@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-left">
+            <img class="container-left__image" id="product-image" src="images/all-shirts.jpg">
+        </div>
+        <div class="container-right">
+            <h1 class="product__title" id="product-title"> 3 Pack of KJA T-Shirts </h1>
+            <h2 class="product__price" id="product-price"> £111.01 </h2>
+            <div class="container-right__review-container">
+                <p class="product__stars"> &#9733; &#9733; &#9733; &#9733; &#9734; </p>
+                <h4 class="product__reviews"> Reviews </h4>
+            </div>
+            <div class="product__colours-container">
+                <h3 class="product__colour-title">Colour:</h3>
+                <div class="colour-selector">
+                    <div class="colours black colour-selector__black" id="colour-selector__black"></div>
+                    <div class="colours grey colour-selector__grey" id="colour-selector__grey"></div>
+                    <div class="colours white colour-selector__white" id="colour-selector__white"></div>
+                </div>
+            </div>
+            <div class="size-container">
+                <h3 class="size-container__title"> Sizes:</h3>
+                <p class="size-container__guide"> Size guide</p>
+            </div>
+            <div class="product__sizes-container">
+                <p class="product__size-cell smalls"> XXS </p>
+                <p class="product__size-cell smalls"> XS </p>
+                <p class="product__size-cell smalls"> S </p>
+                <p class="product__size-cell"> M </p>
+                <p class="product__size-cell"> L </p>
+                <p class="product__size-cell extra-large"> XL </p>
+                <p class="product__size-cell extra-large"> XXL </p>
+                <p class="product__size-cell--greyed"> XXL </p>
+            </div>
+            <button class="add-to-cart"> Add to cart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
